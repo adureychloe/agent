@@ -9,7 +9,7 @@ from llm import OpenAICompatibleClient
 # 加载 .env 文件（仅本地开发时使用）
 load_dotenv()
 
-available_tools = {
+available_tools = { 
     "get_weather": get_weather,
     "get_attraction": get_attraction,
 }
